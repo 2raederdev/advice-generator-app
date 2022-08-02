@@ -1,0 +1,26 @@
+@import './colors';
+@import './typography';
+@import './variables';
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: $dark-blue;
+}
+
+.layout {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  padding: 18px;
+}
+
+p {
+  margin: 0;
+}
+
+$height: 12em;
